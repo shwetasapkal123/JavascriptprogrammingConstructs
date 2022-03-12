@@ -1,0 +1,10 @@
+let prompt = require('prompt-sync')();
+let num1=parseInt(prompt("Enter first number: "));
+let num2=parseInt(prompt("Enter second number: "));
+let num3=parseInt(prompt("Enter thrird number: "));
+console.log("a+b*c= "+num1+num2*num3);
+console.log("a%b+c= "+num1%num2+num3);
+console.log("c+a/b= "+num1+num2/num3);
+console.log("a*b+c= "+num1*num2+num3);
+console.log("Maximum number is "+Math.max(num1,num2,num3));
+console.log("Minimum number is "+Math.min(num1,num2,num3));
